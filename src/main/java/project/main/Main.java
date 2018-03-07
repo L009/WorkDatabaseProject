@@ -32,5 +32,7 @@ public class Main {
         server.start();
         java.util.logging.Logger.getGlobal().info("Server started");
         server.join();
+
+        System.out.println();
     }
 }
