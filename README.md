@@ -1,2 +1,2 @@
 # WorkDatabaseProject
-In this project...
+In this project I use hibernate, Executer pattern, servlets.
