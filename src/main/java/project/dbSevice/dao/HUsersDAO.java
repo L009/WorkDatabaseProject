@@ -48,7 +48,7 @@ public class HUsersDAO extends UsersDAO {
 
         UsersDataset usersDataset = hExecutor.execute(
                 (sess)-> {
-                    Criteria criteria = sess..createCriteria(UsersDataset.class);
+                    Criteria criteria = sess.createCriteria(UsersDataset.class);
                     return (UsersDataset)criteria.
                             add(Restrictions.eq("login", login)).
                             uniqueResult();
